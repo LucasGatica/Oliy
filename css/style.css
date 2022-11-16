@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Roboto&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #3a205a;
+
+}
+.cabecalhoPrincipal{
+	background-color: #41285c;
+}
+
+
+.cabecalhoPrincipal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.cabecalhoPrincipal-titulo a {
+	text-decoration: none;
+	color: white;
+}
+
+.cabecalhoPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: white;
+	
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+
+	
+}
+.cabecalhoPrincipal-nav-link-insc{
+	border: 1px solid #3848f1;
+	background-color: #3848f1;
+	border-radius: 20px	;
+}
+
+
+.subtitulo {
+	font-weight: bold;
+	font-size: 32px;
+	margin-top: 5%;
+	color: #ef43cf	;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+
+.imgOpcao{
+	width: 30%;
+
+}
+.imgOpcao2{
+	width: 70%;
+}
+
+.item{
+	padding: 5%;
+	text-align: center;
+	width: 30%;
+	background-color: #41285c	;
+	border: 1px solid #41285c;
+	transition: 100ms;
+}
+.item p{
+	margin-top: 5%;
+	font: bold;
+}
+
+.item:hover{
+	width: 35%;
+	background-color: #41285c;
+}

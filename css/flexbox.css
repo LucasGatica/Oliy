@@ -1,0 +1,21 @@
+.cabecalhoPrincipal .container{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cabecalhoPrincipal-nav{
+    display: flex;
+   
+}
+
+.opcoes{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}

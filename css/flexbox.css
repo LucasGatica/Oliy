@@ -1,4 +1,9 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&family=Alfa+Slab+One&display=swap');
+
 .cabecalhoPrincipal .container{
+
     padding-top: 10px;
     display: flex;
     align-items: center;
@@ -20,28 +25,36 @@
     color: white;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Roboto&display=swap');
+
 
 body{
-	font-family: 'Roboto', sans-serif;
-	background-color: #3a205a;
+	font-family: 'Alfa Slab One', serif;
+	height: 100%;
+	
+	background-color: #4822bc;
+ background-image: linear-gradient(0deg, #6284FF 0%,  #5737c4  60%, #4822bc 95% );
+
+	
+
 
 }
 .cabecalhoPrincipal{
-	background-color: #41285c;
+	
+	background-color: #4822bc;
 }
 
 
 .cabecalhoPrincipal-titulo {
+	
 	font-weight: bold;
 	font-size: 2em;
-	color: purple;
+	color: #d5cdee;
 	margin-bottom: 20px;
 }
 
 .cabecalhoPrincipal-titulo a {
 	text-decoration: none;
-	color: white;
+	color: #d5cdee;
 }
 
 .cabecalhoPrincipal-nav-link {
@@ -61,12 +74,40 @@ body{
 	border-radius: 20px	;
 }
 
+main{
+	margin-bottom: 5%;
+}
+
+.hero{
+	margin-top: 5%;
+	justify-content: space-around;
+	text-align: center;
+	display: flex;
+	
+}
+.hero p{
+	font-family: 'Alexandria', sans-serif;
+}
+
+.heroText{
+	color: white;
+	font-size: 35px;
+	margin: auto;
+	
+}
+
+.imgLogohero{
+	width: 30%;
+	margin: auto;
+}
+
 
 .subtitulo {
+	font-family: 'Alexandria', sans-serif;
 	font-weight: bold;
 	font-size: 32px;
 	margin-top: 5%;
-	color: #ef43cf	;
+	color: #d5cdee	;
 	margin-bottom: 10px;
 	text-align: center;
 }
@@ -74,27 +115,47 @@ body{
 
 
 .imgOpcao{
-	width: 30%;
+	width: 50%;
 
 }
 .imgOpcao2{
-	width: 70%;
+	padding: 0;
+	width: 65%;
+}
+
+.imgLogo{
+	margin-top: 10px;
+	width: 100px;
 }
 
 .item{
+	border-radius: 20px;
 	padding: 5%;
 	text-align: center;
-	width: 30%;
-	background-color: #41285c	;
-	border: 1px solid #41285c;
+	width: 25%;
+	background-color: #d5cdee	;
+	border: 1px solid #d5cdee;
 	transition: 100ms;
 }
-.item p{
-	margin-top: 5%;
+
+.item2{
+	border-radius: 20px;
+	padding: 5%;
+	text-align: center;
+	width: 25%;
+	background-color: #d5cdee	;
+	border: 1px solid #d5cdee;
+	transition: 100ms;
+}
+.pzim{
+	margin-top: 20%;
 	font: bold;
+	color: #3848f1;
+
+	font-size: 30px;
 }
 
-.item:hover{
-	width: 35%;
-	background-color: #41285c;
+.item:hover, .item2:hover{
+	
+	background-color: #4522bc;
 }

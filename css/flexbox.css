@@ -32,7 +32,7 @@ body{
 	height: 100%;
 	
 	background-color: #4822bc;
- background-image: linear-gradient(0deg, #6284FF 0%,  #5737c4  60%, #4822bc 95% );
+ background-image: linear-gradient(0deg,#7794fb 0%,#6284FF 5%,  #5737c4  60%, #4822bc 95% );
 
 	
 
@@ -80,6 +80,7 @@ main{
 
 .hero{
 	margin-top: 5%;
+	margin-bottom: 20%;
 	justify-content: space-around;
 	text-align: center;
 	display: flex;
@@ -106,7 +107,7 @@ main{
 	font-family: 'Alexandria', sans-serif;
 	font-weight: bold;
 	font-size: 32px;
-	margin-top: 5%;
+	margin-top: 10%;
 	color: #d5cdee	;
 	margin-bottom: 10px;
 	text-align: center;
@@ -129,7 +130,7 @@ main{
 }
 
 .item{
-	border-radius: 20px;
+	border-radius: 10%;
 	padding: 5%;
 	text-align: center;
 	width: 25%;
@@ -139,7 +140,7 @@ main{
 }
 
 .item2{
-	border-radius: 20px;
+	border-radius: 10%;
 	padding: 5%;
 	text-align: center;
 	width: 25%;
@@ -148,6 +149,7 @@ main{
 	transition: 100ms;
 }
 .pzim{
+
 	margin-top: 20%;
 	font: bold;
 	color: #3848f1;
@@ -155,7 +157,207 @@ main{
 	font-size: 30px;
 }
 
+.h1botao{
+	margin-top: 20%;
+	font-size: 20px;
+	font-family:'Alfa Slab One', serif;
+	font: bold;
+	color: #3848f1;
+}
+
 .item:hover, .item2:hover{
 	
 	background-color: #4522bc;
+	
+	border:#4522bc;
 }
+
+.planos{
+	border-radius: 30px;
+	justify-content: space-around	;
+	display: flex;
+	margin: auto;
+	margin-top: 5%;
+	height: 500px;
+	width: 80%;
+	background-color: #4522bc;
+	
+}
+
+.itemPlano{
+	margin-top: 5%;
+	text-align: center;
+	color: #4522bc;
+
+	margin-bottom: 5%;
+	width: 27%;
+	border-radius: 10px;
+	border: #4722bc;
+	background-color: #d5cdee;
+}
+
+.itemPlano:hover{
+	background-color: #d8deee;
+	color: #4733bc;
+}
+
+.itemPlano h1{
+	margin-top: 5%;
+	font-size: 20px;
+	margin-bottom: 15%;
+}
+
+.itemPlano h2{
+	font-size: 25px;
+	margin-top: 1%;
+	margin-bottom: 8%;
+}
+
+.itemPlano p{
+	margin-left: 15px;
+	text-align: start;
+	font-size: 15px;
+	margin-top:10px;
+	color: #2a2a2b;
+}
+
+.itemPlano button{
+	margin-top: 40%;
+	color: #d5cdee;
+	padding: 20px;
+	padding-left: 35px;
+	padding-right: 35px;
+	background: #2a2a2b;
+	border: #2a2a2b;
+	border-radius: 10px ;
+}
+/*************************************/
+.plan-card {
+	background: #fff;
+	width: 15rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	border-bottom: 4px solid #000446;
+	box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
+	font-family: "Poppins", sans-serif;
+  }
+  
+  .plan-card h2 {
+	margin-bottom: 15px;
+	font-size: 27px;
+	font-weight: 600;
+  }
+  
+  .plan-card h2 span {
+	display: block;
+	margin-top: -4px;
+	color: #4d4d4d;
+	font-size: 12px;
+	font-weight: 400;
+  }
+  
+  .etiquet-price {
+	position: relative;
+	background: #fdbd4a;
+	width: 14.46rem;
+	margin-left: -0.65rem;
+	padding: .2rem 1.2rem;
+	border-radius: 5px 0 0 5px;
+  }
+  
+  .etiquet-price p {
+	margin: 0;
+	padding-top: .4rem;
+	display: flex;
+	font-size: 1.9rem;
+	font-weight: 500;
+  }
+  
+  .etiquet-price p:before {
+	content: "$";
+	margin-right: 5px;
+	font-size: 15px;
+	font-weight: 300;
+  }
+  
+  .etiquet-price p:after {
+	content: "/ handle";
+	margin-left: 5px;
+	font-size: 15px;
+	font-weight: 300;
+  }
+  
+  .etiquet-price div {
+	position: absolute;
+	bottom: -23px;
+	right: 0px;
+	width: 0;
+	height: 0;
+	border-top: 13px solid #c58102;
+	border-bottom: 10px solid transparent;
+	border-right: 13px solid transparent;
+	z-index: -6;
+  }
+  
+  .benefits-list {
+	margin-top: 16px;
+  }
+  
+  .benefits-list ul {
+	padding: 0;
+	font-size: 14px;
+  }
+  
+  .benefits-list ul li {
+	color: #4d4d4d;
+	list-style: none;
+	margin-bottom: .2rem;
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+  }
+  
+  .benefits-list ul li svg {
+	width: .9rem;
+	fill: currentColor;
+  }
+  
+  .benefits-list ul li span {
+	font-weight: 300;
+  }
+  
+  .button-get-plan {
+	display: flex;
+	justify-content: center;
+	margin-top: 1.2rem;
+  }
+  
+  .button-get-plan a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000446;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: .8rem;
+	letter-spacing: .05rem;
+	font-weight: 500;
+	transition: all 0.3s ease;
+  }
+  
+  .button-get-plan a:hover {
+	transform: translateY(-3%);
+	box-shadow: 0 3px 10px rgba(207, 212, 222, 0.9);
+  }
+  
+  .button-get-plan .svg-rocket {
+	margin-right: 10px;
+	width: .9rem;
+	fill: currentColor;
+  }
+

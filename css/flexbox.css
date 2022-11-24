@@ -30,6 +30,7 @@
 body{
 	font-family: 'Alfa Slab One', serif;
 	height: 100%;
+	background-repeat: no-repeat;
 	
 	background-color: #4822bc;
  background-image: linear-gradient(0deg,#7794fb 0%,#6284FF 5%,  #5737c4  60%, #4822bc 95% );
@@ -175,14 +176,17 @@ main{
 .planos{
 	border-radius: 30px;
 	justify-content: space-around	;
+	
 	display: flex;
 	margin: auto;
 	margin-top: 5%;
+	
 	height: 500px;
 	width: 80%;
 	background-color: #4522bc;
 	
 }
+
 
 .itemPlano{
 	margin-top: 5%;
@@ -196,9 +200,46 @@ main{
 	background-color: #d5cdee;
 }
 
+.itemPlano:first-child{
+	margin-left: 10%;
+}
+.itemPlano:last-child{
+	margin-right: 10%;
+}
+
 .itemPlano:hover{
 	background-color: #d8deee;
 	color: #4733bc;
+}
+
+.botoes{
+ margin-bottom: 20px;
+}
+
+.btPlano{
+	background-color: white;
+	border-right: 0px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-right: 0px;
+	border-color: #2a2a2b;
+	padding: 4px;
+	
+}
+
+.btPlanoSelecionado{
+	border-left: 0px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-left: 0px;
+	padding: 4px;
+	color: #d8deee;
+	border-color: #2a2a2b;
+	background-color: #2a2a2b;
+}
+
+.btPlanoSelecionado:first-child{
+	border-radius:10px ;
 }
 
 .itemPlano h1{
@@ -221,8 +262,8 @@ main{
 	color: #2a2a2b;
 }
 
-.itemPlano button{
-	margin-top: 40%;
+.btComprar{
+	margin-top: 30%;
 	color: #d5cdee;
 	padding: 20px;
 	padding-left: 35px;

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliy</title>
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="cabecalhoPrincipal">
+
+		<div class="container">
+			<h1 class="cabecalhoPrincipal-titulo">
+                
+                <img src="imgs/logo 2.png " class="imgLogo">
+			</h1>
+
+			<nav class="cabecalhoPrincipal-nav">
+				<a class="cabecalhoPrincipal-nav-link" href="#">Influenciadores</a>
+				<a class="cabecalhoPrincipal-nav-link" href="#">Marcas</a>
+			</nav>	
+            <nav class="cabecalhoPrincipal-nav">
+                <a class="cabecalhoPrincipal-nav-link" href="#">Conecte-se</a>
+				<a class="cabecalhoPrincipal-nav-link cabecalhoPrincipal-nav-link-insc" href="#">Inscrever-se</a>
+			</nav>
+
+
+
+		</div>
+
+	</header>
+
+    
+    <main>
+      <!--div que fica escondida ou não abaixo --> 
+        <div    menuInicial>  
+            <h2 class="subtituloLista">
+                Preencha o cadastro
+            </h2>
+        
+            <div class="pesquisar" >
+
+                <img class="logoPesquisar" src="imgs/logo azul.png" alt="logo oliy">
+
+                <div class="form">
+                    <label for="segmento" class="labelCadastro"> Segmento</label>
+                    <input class="form-input" id="segmento" type="text" data-form-input>
+
+                    <label for="pAlvo" class="labelCadastro"> Público alvo</label>
+                    
+                    <select class="form-input" data-form-alvo>
+                        
+                        <option>10-20</option>
+                        <option>20-30</option>
+                        <option>30-40</option>
+                        <option>40-50</option>
+                        <option>50+</option>
+
+
+                    </select>
+
+
+                    <button class="form-button" data-form-button onclick="procurar()"> Procurar </button>
+                </div>
+            </div>
+
+        </div>
+          <!--div que fica escondida ou não acima -->  
+        
+        <div hidden menuCurriculo>
+            <div class="curriculo">
+
+                <section class="foto">
+                        <img src="pessoas/elegant-young-magnificent-woman-with-big-brown-eyes-and-amazing-smile.jpg" alt="pessoa" class="fotoCurriculo">
+                </section>
+
+                <section class="info">
+                    <h1 class="subtituloListaCurriculo"> Maria</h1>
+
+                    <div class="sessoesCurriculo">    
+                    <ul class="dadosCurriculo">
+                            <li>
+                                <h1>About</h1>
+                                <p>sou lindo</p>
+                                <p>sou gato</p>
+                            </li>
+
+                            <li>
+                                <h1>Core needs</h1>
+                                <p>sou lindo</p>
+                                <p>sou gato</p>
+                            </li>
+
+                    </ul>
+
+                    <ul class="dadosCurriculo">
+                        <li>
+                            <h1>why we get to the market</h1>
+                            <p>sou lindo</p>
+                            <p>sou gato</p>
+                        </li>
+
+                        <li>
+                            <h1>sobre</h1>
+                            <p>sou lindo</p>
+                            <p>sou gato</p>
+                        </li>
+
+                     </ul>
+                    
+                    </div>
+
+                    <h2 class="sitacao" data-citacao>
+                    "    Amo trabalhar e lorem ipsum "
+                    </h2>
+
+                    <div class="painPoints">
+                        <div class="visitas"> 90% de compatibilidade
+
+                        </div>
+
+                      
+                        <div class="painPointText">
+                            <h1>why we get to the market</h1>
+                                <p>sou lindo</p>
+                                <p>sou gato</p>
+                        </div>    
+                        
+                            
+    
+                          
+
+                    </div>
+
+                </section>
+                
+            </div>
+        </div>
+
+
+    </main>
+
+    
+    
+    
+
+    <footer>
+        
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

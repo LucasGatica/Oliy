@@ -23,3 +23,7 @@ const  procurar= () =>{
 
 
 
+function bagulho(){
+    window.open("marcas.html");
+
+}

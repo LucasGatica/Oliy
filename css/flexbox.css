@@ -6,6 +6,7 @@
 
     padding-top: 10px;
     display: flex;
+	width: 100%;
     align-items: center;
     justify-content: space-around;
 
@@ -588,4 +589,63 @@ main{
 	  border-bottom-right-radius: 10px;
   
 	  background-color: #d5cdee;
+  }
+
+
+  @media(max-width: 769px) {
+
+
+	.cabecalhoPrincipal{
+		display: none;
+	}
+
+	.cabecalhoPrincipal .container{
+	
+	width: 35%;
+	
+	}
+	.hero{
+		
+		flex-direction: column-reverse;
+		margin-top: 0%;
+		
+	}
+
+	.hero img{
+		width: 30%;
+		margin-bottom: 20% ;
+
+	}
+	.heroText h1{
+		margin-bottom: 10%;
+	}
+
+	.opcoes{
+		flex-direction: column	;
+		width: 80%;
+		margin-bottom: 10%;
+	}
+
+	.item, .item2{
+		width: 100%;
+		margin-bottom: 10%;
+	}
+
+	.planos{
+		flex-direction: column;
+		width: 80%;
+		margin-top: 10%;
+		height: 70%;
+	}
+
+	.itemPlano{
+		
+		align-items: center;
+		margin: auto;
+		
+		width: 80%;
+		margin-top: 10%;
+		margin-bottom: 20%;
+	}
+
   }

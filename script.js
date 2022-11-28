@@ -1,9 +1,18 @@
 const  procurar= () =>{
-   
+    
 
-   
+
 
     const input = document.querySelector('[data-form-input]')
+
+    if(input.value.length==0){
+        alert("preencha com algum valor")
+    }else{
+    
+        console.log(input.value.length)
+    const foto = Math.floor(Math.random()*3)
+    document.getElementById("fotose").src = `pessoas/${foto}.jpg`;
+
     const pubAlvo = document.querySelector('[data-form-alvo')
     console.log(pubAlvo.value)
 
@@ -19,6 +28,7 @@ const  procurar= () =>{
     citacao.innerHTML=`" Eu amo trabalhar com ${input.value} e pessoas de faixa etária ${pubAlvo.value} "`
 
     return false;
+    }
 }
 
 

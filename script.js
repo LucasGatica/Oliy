@@ -37,3 +37,39 @@ function bagulho(){
     window.open("marcas.html");
 
 }
+
+function bagulho2(){
+    window.open("influenciadores.html")
+}
+
+const  procurar2= () =>{
+    
+
+
+
+    const input = document.querySelector('[data-form-input]')
+
+    if(input.value.length==0){
+        alert("preencha com algum valor")
+    }else{
+    
+        console.log(input.value.length)
+    
+
+    const pubAlvo = document.querySelector('[data-form-alvo')
+    console.log(pubAlvo.value)
+
+    console.log(input.value) 
+    const menuInicial = document.querySelector('[menuinicial]')
+    const menuCurriculo =document.querySelector('[menuCurriculo]')
+    const menuColab = document.querySelector('[opcaoColab]')
+
+    menuInicial.hidden = true;
+    menuColab.hidden=false;
+    menuCurriculo.hidden = false;
+
+
+    
+    return false;
+    }
+}

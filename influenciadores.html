@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliy</title>
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="cabecalhoPrincipal">
+
+		<div class="container">
+			<h1 class="cabecalhoPrincipal-titulo">
+                
+                <img src="imgs/logo 2.png " class="imgLogo">
+			</h1>
+
+			<nav class="cabecalhoPrincipal-nav">
+				<a class="cabecalhoPrincipal-nav-link" href="#">Influenciadores</a>
+				<a class="cabecalhoPrincipal-nav-link" href="#">Marcas</a>
+			</nav>	
+            <nav class="cabecalhoPrincipal-nav">
+                <a class="cabecalhoPrincipal-nav-link" href="#">Conecte-se</a>
+				<a class="cabecalhoPrincipal-nav-link cabecalhoPrincipal-nav-link-insc" href="#">Inscrever-se</a>
+			</nav>
+
+
+
+		</div>
+
+	</header>
+
+    
+    <main>
+      <!--div que fica escondida ou não abaixo --> 
+      <div opcaoColab hidden>
+        <div class="colab">
+            <h1 class="subtitulo">Deseja fazer uma campanha com essa marca?</h1>
+
+            <div class="btsColabs">
+                <button> Sim</button>
+                <button>Não</button>
+            </div>
+
+
+        </div>
+      </div>
+
+        <div    menuInicial >  
+            <h2 class="subtituloLista">
+                Preencha o cadastro 
+            </h2>
+        
+            <div class="pesquisar" >
+
+                <img class="logoPesquisar" src="imgs/logo azul.png" alt="logo oliy">
+
+                <div class="form">
+                    <label for="segmento" class="labelCadastro"> Segmento</label>
+                    <input class="form-input" id="segmento" type="text" data-form-input>
+
+                    <label for="pAlvo" class="labelCadastro"> Público alvo</label>
+                    
+                    <select class="form-input" data-form-alvo>
+                        
+                        <option>10-20</option>
+                        <option>20-30</option>
+                        <option>30-40</option>
+                        <option>40-50</option>
+                        <option>50+</option>
+
+
+                    </select>
+
+
+                    <button class="form-button" data-form-button onclick="procurar2()"> Procurar </button>
+                </div>
+            </div>
+
+        </div>
+          <!--div que fica escondida ou não acima -->  
+        
+        <div  menuCurriculo  hidden>
+            <div class="curriculo">
+
+                <section class="foto">
+                        <img  id="fotose" src="marcas/hotsushi.jfif" alt="pessoa" class="fotoCurriculo">
+                </section>
+
+                <section class="info">
+                    <h1 class="subtituloListaCurriculo"> Hot Sushi</h1>
+
+                    <div class="sessoesCurriculo">    
+                    <ul class="dadosCurriculo">
+                            <li>
+                                <h1>Sobre</h1>
+                                <p>Restaurante</p>
+                                <p>Porto Alegre, RS</p>
+                            </li>
+
+                            <li>
+                                <h1>Público alvo</h1>
+                                <p>20 a 40 anos</p>
+                            </li>
+
+                    </ul>
+
+                    <ul class="dadosCurriculo">
+                        <li>
+                            <h1>Interesses</h1>
+                            <p>Perfis com + de 10.000 seguidores</p>
+                            <p>Culinária</p>
+                            <p>Comisa japonesa</p>
+                            <p>Influenciadores Locais</p>
+                        </li>
+
+                        <li>
+                           <h1> Detalhes da Campanha</h1>
+                          <p>  1 post/ semana </p>
+                          <p>Ojetivo: atrair leads para o restaurante </p>
+                          <p>Divulgações sempre a noite</p>
+                         
+                        </li>
+
+                     </ul>
+                    
+                    </div>
+
+                    <h2 class="sitacao" data-citacao>
+                    "  Somos uma empresa que tem como objetivo servir o melhor sushi de POA "
+                    </h2>
+
+                    <div class="painPoints">
+                        <div class="visitas"> 90% de compatibilidade
+
+                        </div>
+
+                      
+                        <div class="painPointText">
+                            <h1>Remuneração</h1>
+                                
+                                <p>Refeição gratuita ao Hot Sushi</p>
+                                <p>R$ 500.00</p>
+                        </div>    
+                        
+                            
+    
+                          
+
+                    </div>
+
+                </section>
+                
+            </div>
+        </div>
+
+       
+
+    </main>
+
+    
+    
+    
+
+    <footer>
+        
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

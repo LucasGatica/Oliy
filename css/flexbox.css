@@ -45,6 +45,22 @@ body{
 	background-color: #4822bc;
 }
 
+.btsColabs{
+	margin: auto;
+}
+
+.colab{
+	display: flex;
+	flex-direction: column;
+}
+
+.btsColabs button{
+	background-color: #2a2a2b;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+}
+
 
 .cabecalhoPrincipal-titulo {
 	

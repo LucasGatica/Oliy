@@ -648,4 +648,70 @@ main{
 		margin-bottom: 20%;
 	}
 
+	.subtituloLista{
+		margin-top: 10%;
+	}
+	.pesquisar{
+		margin-top: 10%;
+		width: 80%;
+		margin-bottom: 10%;
+	}
+
+
+	.curriculo{
+		flex-direction: column;
+		width: 90%;
+		margin-bottom: 40%;
+		
+	}
+
+	.foto{
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0;
+		width: 100%;
+	}
+	.fotoCurriculo{
+		width: 250px;
+		height: 250px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+
+	.info{
+		border-bottom-left-radius: 10px;
+		border-top-right-radius: 0px;
+		width: 100%;
+	}
+
+	.sessoesCurriculo{
+		margin-right: 10%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.painPoints{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.painPointText{
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-bottom: 5%
+		
+	}
+	.painPointText h1{
+		text-align: center;
+		} 
+
+	.visitas{
+		margin: auto;
+		background-image: linear-gradient(180deg,white 4%, #e9e2fe 35%,  #dad2f2  60%, #d5cdee 95% );
+		margin-bottom: 5%;
+		border-top-left-radius: 10px;
+	  border-bottom-left-radius: 10px;
+	}
+	
   }
